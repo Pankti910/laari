@@ -1,0 +1,27 @@
+#this is only for passing parameters
+
+
+
+
+RewriteEngine On
+
+RewriteCond %{THE_REQUEST} \s/+([^?]+?)\.php[\s?] [NC]
+RewriteRule ^ /%1 [R=307,NE,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ /$1 [NE,R=307,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+?)/?$ $1.php [L]
+
+
+
+RewriteRule ^question/([0-9]+)/([\w\-]+) que_ans.php?unique_number=$1&slug=$2 [NC,L]
+RewriteRule ^myquestion/([0-9]+)/([\w\-]+) my_que_ans.php?unique_number=$1&slug=$2 [NC,L]
+RewriteRule ^add_question/([\w\-]+) add_fourm_question.php?question=$1 [NC,L]
+RewriteRule ^laari/([0-9]+) show_laari.php?no=$1 [NC,L]
+
+
+php_value session.cookie_lifetime 2147483647
+php_value session.gc_maxlifetime 2147483647

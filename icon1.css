@@ -1,0 +1,64 @@
+
+
+/*For like logic*/
+.fa-thumbs-o-up:before
+{
+	color:black;
+	content: &#xf087;
+	color:black;
+	cursor:pointer;
+}
+ .fa-thumbs-up:before,after
+ {
+
+	color:black;
+	content:&#xf164;
+	color:black;	
+	cursor:pointer;
+ }
+ .fa-instagram
+ {
+  content:&#xf16d;
+ }
+.fa-whatsapp
+{
+content:'&#xf232';
+	
+}
+
+/*inputbox icons in forum*/
+.fa-map:before
+{
+  content:&#xf279; 
+}
+.fa-link:before
+ {
+     content:&#xf0c1;
+ }
+ .fa-paper-plane:before
+ {
+ 	content:&#xf1d8;
+ }
+ .fa-camera
+ {
+ 	content:&#xf030;
+ }
+
+	.fa-user
+	{
+		content: &#xf007;
+		color:black;
+
+		
+	}
+
+.fa-heart
+{
+	content: &#xf004;
+	color:red!important;
+}
+.fa-heart-o
+{
+	 content: &#xf08a;
+	 color:black;
+}	

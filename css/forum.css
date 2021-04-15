@@ -1,0 +1,70 @@
+
+  .fa-lock
+  {
+    content:&#xf023;
+    }
+    .inputWithIcon textarea
+    {
+
+      height:50px;
+      width:auto;
+      resize:none!important;
+      padding-left:40px;
+      border:2px solid #aaa;
+    
+    border-radius:40px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: 8px;
+    transition:.3s;
+    font-size:20px;
+
+    padding-right:115px!important;
+    margin-bottom:0;
+    
+    vertical-align:top;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+
+    }
+    .inputWithIcon
+    {
+      position:relative;
+    }
+    .inputWithIcon span
+    {
+      position:absolute;
+      top:7px;
+      padding:9px 8px;
+      transition:.3s;
+  z-index: 2;
+  right: 0;
+    }
+    .inputWithIcon textarea+span
+    {
+      color:#444;
+    }
+  
+    .display_fa_map
+    {
+      right:50px!important;
+    }
+
+    .display_fa_paper_plane
+    {
+      right:15px!important;
+    }
+.display_answer_all
+{
+  border-right:0;
+ 
+}
+.answer_display
+{
+  font-weight:bold;
+  font-size:20px;
+}

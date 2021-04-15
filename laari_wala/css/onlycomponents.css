@@ -1,0 +1,40 @@
+
+ .s-3
+ {
+
+ }
+
+.divforum
+{
+   border-style:dashed;
+   border-color:black; 
+   border-width:5px;
+}
+.divquestion
+{
+  border-style:solid;
+  border-color:red;
+  border-width:1px;
+}
+
+
+.question
+{
+  font-weight:bold;
+  font-size:40px;
+}
+.like
+{
+	font-size:30px;
+	width:100%;
+}
+.share
+{
+	font-size:30px;
+	width:100%;  
+}
+.like_count
+{
+   font-weight:bold;
+   font-size:10px;    
+}
